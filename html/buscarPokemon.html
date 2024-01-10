@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="listadoPokemon.html">Listado Pokemon</a></li>
+        </ul>
+    </nav>
+    <div>
+        <label for="pokemon">Pokemon</label>
+        <input type="text" name="pokemon" id="pokemon">
+        <button id="buscar">Buscar</button>
+    </div>
+    <div id="informacion">
+        <h1 id="textCarga">Esperando a que escribas el nombre del pokemon</h1>
+        <img class="imgCarga" src="../img/espera.gif" alt="Esperando al pokemon">
+    </div>
+    <script type="module" src="../js/buscarPokemon.js"></script>
+</body>
+</html>

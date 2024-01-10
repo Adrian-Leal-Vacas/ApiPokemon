@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0088ff;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+#contenedorTodosPokemon {
+  flex: 1;
+}
+
+#informacion {
+  flex: 1;
+}
+
+label {
+  font-size: 20px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+.seleccion {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seleccion:hover {
+    background-color: #ffcc00;
+}
+
+img {
+    width: 200px;
+
+}
+
+.imgCarga {
+    width: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width: 819px) {
+    * {
+        text-align: center;
+    }
+
+    label {
+        padding-bottom: 5px;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+* {
+    text-align: center;
+}
+label {
+    padding-bottom: 5px;
+}
+nav {
+    margin-left: 17%;
+}
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+}
+    h1 {
+        margin-left: 70px;
+    font-size: 20px;
+    }
+}
